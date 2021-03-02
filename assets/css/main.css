@@ -5,7 +5,7 @@ p {
 
 .main {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 100px auto;
 	background-color: #2196F3;
 	padding: 10px;
 }
@@ -16,4 +16,8 @@ p {
 	padding: 20px;
 	font-size: 30px;
 	text-align: center;
+}
+
+.game {
+	grid-row: 2/3;
 }
