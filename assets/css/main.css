@@ -15,15 +15,16 @@
 	display: grid;
 	grid-template-rows: auto auto auto;
 	align-content: space-evenly;
+	height: 100%;
+	width: 50%;
 }
 
 .left {
-	color: white;
 	display: grid;
 	grid-template-rows: auto auto;
-	padding: 10px;
-	margin: auto;
 	align-content: space-evenly;
+	height: 100%;
+	width: 50%;
 }
 
 .grid-item {
@@ -31,4 +32,3 @@
 	font-size: 30px;
 	text-align: center;
 }
-
