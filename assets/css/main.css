@@ -9,7 +9,7 @@
 	display : inline-flex;
 }
 
-.right {
+.left {
 	display: grid;
 	grid-template-rows: auto auto auto;
 	align-content: space-evenly;
@@ -18,13 +18,13 @@
 	margin: auto;
 }
 
-.left {
+.right {
 	display: grid;
 	grid-template-rows: auto auto;
 	align-content: space-evenly;
 	height: 100%;
 	width: 50%;
-	margin: auto;
+	/*margin: auto;*/
 }
 
 .grid-item {
